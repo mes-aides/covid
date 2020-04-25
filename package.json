@@ -4,7 +4,7 @@
   "description": "Site d'orientation pendant la crise sanitaire du COVID-19",
   "scripts": {
     "dev": "next",
-    "build": "next build",
+    "build": "NODE_ENV=production next build && NODE_ENV=production next export",
     "start": "next start"
   },
   "repository": {
