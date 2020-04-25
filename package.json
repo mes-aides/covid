@@ -2,11 +2,14 @@
   "name": "covid",
   "version": "1.0.0",
   "description": "Site d'orientation pendant la crise sanitaire du COVID-19",
-  "main": "index.js",
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mes-aides/covid.git"
   },
   "author": "Thomas Guillet",
   "license": "AGPL-3.0",
